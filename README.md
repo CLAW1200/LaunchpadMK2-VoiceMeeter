@@ -14,6 +14,8 @@ A Macro Board for the Novation Launchpad MK2
 
 - Soundboard 
 
+- Live Audio effects with VSTs
+
 - On-the-fly voice recording and playback
 
 - **THE BASS BUTTON**
