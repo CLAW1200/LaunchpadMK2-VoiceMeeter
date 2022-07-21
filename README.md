@@ -12,9 +12,9 @@ A Macro Board for the Novation Launchpad MK2
 
 - Media Controls
 
-- [Soundboard](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/wiki/Soundboard)
+- [Soundboard](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/wiki/Soundboard-and-Live-Audio-effects-with-VSTs)
 
-- [Live Audio effects with VSTs](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/wiki/Soundboard)
+- [Live Audio effects with VSTs](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/wiki/Soundboard-and-Live-Audio-effects-with-VSTs)
 
 - On-the-fly voice recording and playback
 
