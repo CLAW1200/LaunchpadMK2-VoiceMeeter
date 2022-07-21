@@ -12,9 +12,9 @@ A Macro Board for the Novation Launchpad MK2
 
 - Media Controls
 
-- Soundboard 
+- [Soundboard](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/wiki/Soundboard)
 
-- Live Audio effects with VSTs
+- [Live Audio effects with VSTs](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/wiki/Soundboard)
 
 - On-the-fly voice recording and playback
 
@@ -82,7 +82,7 @@ As stated in the beginning, please read the wiki for any information regarding e
 
 ***What is "min.exe" and "min.py"?*** 
 
-- Min.exe is a compiled python script that simply minimizes MacroButtons.exe. It is run when pressing the User Switch (Mixer) button. It exists because of annoying side effect when loading a Macro config file, with Macros. You don't need it, but if you switch pages a lot you way find it useful. You can read the wiki for more information.
+- Min.exe is a compiled python script that simply minimizes MacroButtons.exe. It is run when pressing the User Switch (Mixer) button. It exists because of annoying side effect when loading a Macro config file, with Macros. You don't need it, but if you switch pages a lot you way find it useful. You can [read the wiki](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/wiki/Important-Notes) for more information.
 
 ***Why are lots sliders either -12dB or +12dB?***
 
