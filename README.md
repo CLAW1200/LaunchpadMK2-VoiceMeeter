@@ -1,5 +1,9 @@
-# LaunchpadMK2-VoiceMeeter
+# Setup Guide
+
+![](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/blob/main/Mk2-Macro-Layout.png?raw=true)
+
 VoiceMeeter Potato Configs for use with a Launchpad MK2 
+
 Download the files and place them in:
 
 	C:\Users\%username%\Documents\Voicemeeter
