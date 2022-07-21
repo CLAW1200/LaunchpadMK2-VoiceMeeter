@@ -2,7 +2,26 @@
 
 ![](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/blob/main/Mk2-Macro-Layout.png?raw=true)
 
-VoiceMeeter Potato Configs for use with a Launchpad MK2 
+A Macro Board for the Novation Launchpad MK2
+
+**Features:**
+
+- Volume sliders, mute buttons, and more for Devices A1-3
+
+- Active Volume Meters for live monitoring and visual feedback (looks very cool)
+
+- Media Controls
+
+- Soundboard 
+
+- On-the-fly voice recording and playback
+
+- **THE BASS BUTTON**
+
+- Much more... (look at that picture 👀 )
+
+
+**Setup:**
 
 Download the files and place them in:
 
