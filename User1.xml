@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VBAudioVoicemeeterMacroButtonMap>
+<MacroButtonConfiguration x0='0' y0='0' dx='2576' dy='1416' >
+	<MacroButton index='1' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='6' tin='-52.5' tout='-52.5' tmsHold='300' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#0' id='MBhid0' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 81 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 81 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 81 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 81 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 81 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='2' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='6' tin='-45.0' tout='-45.0' tmsHold='250' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#1' id='MBhid1' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 82 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 82 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 82 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 82 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 82 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='3' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='6' tin='-37.5' tout='-37.5' tmsHold='200' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#2' id='MBhid2' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 83 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 83 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 83 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 83 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 83 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='4' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='6' tin='-30.0' tout='-30.0' tmsHold='150' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#3' id='MBhid3' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 84 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 84 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 84 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 84 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 84 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='5' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='6' tin='-22.5' tout='-22.5' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#4' id='MBhid4' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 85 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 85 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 85 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 85 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 85 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='6' type='0' color='2' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='6' tin='-15.0' tout='-15.0' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#5' id='MBhid5' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 86 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 86 , 13);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 86 , 14);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 86 , 15);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 86 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='7' type='0' color='1' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='6' tin='-7.5' tout='-7.5' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#6' id='MBhid6' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 87 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 87 , 9);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 87 , 10);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 87 , 11);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 87 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='8' type='0' color='8' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='6' tin='-0.2' tout='-0.2' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#7' id='MBhid7' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 88 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 88 , 5);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 88 , 6);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 88 , 7);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 88 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='9' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#8' id='MBhid8' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name></MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest></MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='10' type='1' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='B0' b2='68' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#9' id='MBhid9' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Stank</MB_Name>
+		<MB_Subname>The Stank Button ;)</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>Bus[0].EQ.channel[0].cell[0].on = 1
+Bus[0].EQ.channel[1].cell[0].on = 1
+System.SendMidi("out1", "ctrl-change", 1 , 104 , 5);
+</MB_OnRequest>
+		<MB_OffRequest>Bus[0].EQ.channel[0].cell[0].on = 0
+Bus[0].EQ.channel[1].cell[0].on = 0
+
+System.SendMidi("out1", "ctrl-change", 1 , 104 , 21);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='11' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-52.5' tout='-52.5' tmsHold='300' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#10' id='MBhid10' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 71 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 71 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 71 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 71 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 71 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='12' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-45.0' tout='-45.0' tmsHold='250' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#11' id='MBhid11' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 72 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 72 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 72 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 72 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 72 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='13' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-37.5' tout='-37.5' tmsHold='200' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#12' id='MBhid12' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 73 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 73 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 73 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 73 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 73 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='14' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-30.0' tout='-30.0' tmsHold='150' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#13' id='MBhid13' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 74 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 74 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 74 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 74 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 74 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='15' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-22.5' tout='-22.5' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#14' id='MBhid14' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 75 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 75 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 75 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 75 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 75 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='16' type='0' color='2' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-15.0' tout='-15.0' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#15' id='MBhid15' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 76 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 76 , 13);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 76 , 14);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 76 , 15);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 76 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='17' type='0' color='1' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-7.5' tout='-7.5' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#16' id='MBhid16' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 77 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 77 , 9);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 77 , 10);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 77 , 11);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 77 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='18' type='0' color='8' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-0.2' tout='-0.2' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#17' id='MBhid17' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 78 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 78 , 5);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 78 , 6);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 78 , 7);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 78 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='19' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='4F' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#18' id='MBhid18' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Restart Audio [Pan]</MB_Name>
+		<MB_Subname>Restart Audio</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 79 , 41);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 79 , 3 );
+Command.Restart = 1;</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 79 , 41);
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='20' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='B0' b2='69' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#19' id='MBhid19' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Start FL Studio</MB_Name>
+		<MB_Subname>Start FL Studio</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "ctrl-change", 1 , 105 , 41);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "ctrl-change", 1 , 105 , 3);
+System.Execute("C:\Program Files (x86)\Image-Line\FL Studio 20\fl64.exe","","");
+
+</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "ctrl-change", 1 , 105 , 41);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='21' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='5' tin='-52.5' tout='-52.5' tmsHold='300' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#20' id='MBhid20' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 61 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 61 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 61 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 61 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 61 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='22' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='5' tin='-45.0' tout='-45.0' tmsHold='250' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#21' id='MBhid21' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 62 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 62 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 62 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 62 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 62 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='23' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='5' tin='-37.5' tout='-37.5' tmsHold='200' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#22' id='MBhid22' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 63 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 63 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 63 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 63 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 63 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='24' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='5' tin='-30.0' tout='-30.0' tmsHold='150' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#23' id='MBhid23' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 64 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 64 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 64 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 64 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 64 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='25' type='0' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='5' tin='-22.5' tout='-22.5' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#24' id='MBhid24' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 65 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 65 , 25);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 65 , 26);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 65 , 27);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 65 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='26' type='0' color='2' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='5' tin='-15.0' tout='-15.0' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#25' id='MBhid25' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 66 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 66 , 13);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 66 , 14);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 66 , 15);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 66 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='27' type='0' color='1' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='5' tin='-7.5' tout='-7.5' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#26' id='MBhid26' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 67 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 67 , 9);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 67 , 10);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 67 , 11);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 67 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='28' type='0' color='8' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='1' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='5' tin='-0.2' tout='-0.2' tmsHold='100' tafterMute='1' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#27' id='MBhid27' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Visual</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 68 , 0);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 68 , 5);</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 68 , 6);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 68 , 7);
+Wait(40);
+System.SendMidi("out1", "note-on", 1 , 68 , 0);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='29' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='45' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#28' id='MBhid28' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Lock Desktop [Send A]</MB_Name>
+		<MB_Subname>Lock Desktop</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 69 , 41);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 69 , 3 );
+System.Execute("%windir%\system32\cmd.exe","%windir%\system32","/K Rundll32.exe user32.dll,LockWorkStation & exit");</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 69 , 41);
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='30' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='B0' b2='6A' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#29' id='MBhid29' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Start Cantabile</MB_Name>
+		<MB_Subname>Start Cantabile</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "ctrl-change", 1 , 106 , 41);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "ctrl-change", 1 , 106 , 3);
+System.Execute("C:\Program Files\Topten Software\Cantabile 3.0\Cantabile.exe","","");
+Button(32).State = 1
+
+</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "ctrl-change", 1 , 106 , 41);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='31' type='1' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='33' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#30' id='MBhid30' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Mute MicOut</MB_Name>
+		<MB_Subname>Mute B1/2/3</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 51 , 29 );
+Strip[0].Mute = 1
+Strip[1].Mute = 1</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 51 , 41);
+Strip[0].Mute = 0
+Strip[1].Mute = 0</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='32' type='1' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='34' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#31' id='MBhid31' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Monitor Switch</MB_Name>
+		<MB_Subname>Monitor A2/3</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 52 , 29 );
+Strip[0].A2 = 1
+Strip[0].A3 = 1
+Strip[1].A2 = 1
+Strip[1].A3 = 1
+Bus[1].ReturnReverb = 10
+Bus[1].ReturnDelay = 10
+Bus[2].ReturnReverb = 10
+Bus[2].ReturnDelay = 10</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 52 , 41);
+Strip[0].A2 = 0
+Strip[0].A3 = 0
+Strip[1].A2 = 0
+Strip[1].A3 = 0
+Bus[1].ReturnReverb = 0
+Bus[1].ReturnDelay = 0
+Bus[2].ReturnReverb = 0
+Bus[2].ReturnDelay = 0</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='33' type='1' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='35' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#32' id='MBhid32' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Toggle Mic1/2</MB_Name>
+		<MB_Subname>Switch between In1/2</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 53 , 29);
+Strip[0].Gain = -60
+Strip[1].Gain = -12</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 53 , 41);
+Strip[0].Gain = -12
+Strip[1].Gain = -60</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='34' type='1' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='36' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#33' id='MBhid33' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Reverb On</MB_Name>
+		<MB_Subname>Turn on Reverb</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 54 , 29 );
+Fx.Reverb.On = 1</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 54 , 41);
+Fx.Reverb.On = 0</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='35' type='1' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='37' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#34' id='MBhid34' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Delay On</MB_Name>
+		<MB_Subname>Turn on Delay</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 55 , 29 );
+Fx.Delay.On = 1</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 55 , 41);
+Fx.Delay.On = 0</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='36' type='0' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='38' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#35' id='MBhid35' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Deafen Discord</MB_Name>
+		<MB_Subname>Deafen Discord</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 56 , 3);
+System.KeyPress("CTRL+RSHIFT+ALT+D")</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 56 , 41);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='37' type='0' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='39' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#36' id='MBhid36' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Tab Left</MB_Name>
+		<MB_Subname>Switch to prev tab</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 57 , 3 );
+System.KeyPress("CTRL+SHIFT+TAB")</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 57 , 41);
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='38' type='0' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='3A' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#37' id='MBhid37' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Tab Right</MB_Name>
+		<MB_Subname>Switch to next tab</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 58 , 3 );
+System.KeyPress("CTRL+TAB")</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 58 , 41);
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='39' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='3B' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#38' id='MBhid38' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Prev Media [Send B]</MB_Name>
+		<MB_Subname>Prev Media</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 59 , 41);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 59 , 3 );
+System.KeyPress("MEDIAPREV")</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 59 , 41);
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='40' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='B0' b2='6B' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#39' id='MBhid39' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Start cmd</MB_Name>
+		<MB_Subname>Start cmd</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "ctrl-change", 1 , 107 , 41);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "ctrl-change", 1 , 107 , 3);
+System.Execute("C:\Windows\System32\Cmd.exe","C:\Users\Carsten","");
+
+</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "ctrl-change", 1 , 107 , 41);</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='41' type='1' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='29' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#40' id='MBhid40' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Mute A3</MB_Name>
+		<MB_Subname>Toggle Mute</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 41 , 5 );
+Bus[2].Mute = 1;</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 41 , 29 );
+Bus[2].Mute = 0;</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='42' type='0' color='7' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='2A' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#41' id='MBhid41' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Volume Down A3</MB_Name>
+		<MB_Subname>Smooth A3 Down</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 42 , 53 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 42 , 3 );
+Bus[2].FadeBy = (-72, 5000)</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 42 , 53 );
+Bus[2].Gain+=0</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='43' type='0' color='7' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='2B' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#42' id='MBhid42' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Volume Up A3</MB_Name>
+		<MB_Subname>Smooth A3 Up</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 43 , 53 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 43 , 3 );
+Bus[2].FadeBy = (72, 5000)</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 43 , 53 );
+Bus[2].Gain+=0</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='44' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='2C' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#43' id='MBhid43' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A3 Preset 1</MB_Name>
+		<MB_Subname>Volume Preset 1</MB_Subname>
+		<MB_InitRequest>
+</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 44 , 3 );
+Bus[2].FadeTo = (-23.2 ,300)
+System.SendMidi("out1", "note-on", 1 , 44 , 3 );
+System.SendMidi("out1", "note-on", 1 , 45 , 79 );
+System.SendMidi("out1", "note-on", 1 , 46 , 79 );
+System.SendMidi("out1", "note-on", 1 , 47 , 79 );
+System.SendMidi("out1", "note-on", 1 , 48 , 79 );
+</MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='45' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='2D' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#44' id='MBhid44' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A3 Preset 2</MB_Name>
+		<MB_Subname>Volume Preset 2</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 45 , 3 );
+Bus[2].FadeTo = (-14.4 ,300)
+System.SendMidi("out1", "note-on", 1 , 44 , 79 );
+System.SendMidi("out1", "note-on", 1 , 45 , 3 );
+System.SendMidi("out1", "note-on", 1 , 46 , 79 );
+System.SendMidi("out1", "note-on", 1 , 47 , 79 );
+System.SendMidi("out1", "note-on", 1 , 48 , 79 );
+</MB_OnRequest>
+		<MB_OffRequest>
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='46' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='2E' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#45' id='MBhid45' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A3 Preset 3</MB_Name>
+		<MB_Subname>Volume Preset 3</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 46 , 3 );
+Bus[2].FadeTo = (-5.6 ,300)
+System.SendMidi("out1", "note-on", 1 , 44 , 79 );
+System.SendMidi("out1", "note-on", 1 , 45 , 79 );
+System.SendMidi("out1", "note-on", 1 , 46 , 3 );
+System.SendMidi("out1", "note-on", 1 , 47 , 79 );
+System.SendMidi("out1", "note-on", 1 , 48 , 79 );
+</MB_OnRequest>
+		<MB_OffRequest>
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='47' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='2F' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#46' id='MBhid46' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A3 Preset 4</MB_Name>
+		<MB_Subname>Volume Preset 4</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 47 , 3 );
+Bus[2].FadeTo = (3.2 ,300)
+System.SendMidi("out1", "note-on", 1 , 44 , 79 );
+System.SendMidi("out1", "note-on", 1 , 45 , 79 );
+System.SendMidi("out1", "note-on", 1 , 46 , 79 );
+System.SendMidi("out1", "note-on", 1 , 47 , 3 );
+System.SendMidi("out1", "note-on", 1 , 48 , 79 );
+</MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='48' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='30' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#47' id='MBhid47' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A3 Preset 5</MB_Name>
+		<MB_Subname>Volume Preset 5</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 48 , 3 );
+Bus[2].FadeTo = (12 ,300)
+System.SendMidi("out1", "note-on", 1 , 44 , 79 );
+System.SendMidi("out1", "note-on", 1 , 45 , 79 );
+System.SendMidi("out1", "note-on", 1 , 46 , 79 );
+System.SendMidi("out1", "note-on", 1 , 47 , 79 );
+System.SendMidi("out1", "note-on", 1 , 48 , 3 );
+
+
+</MB_OnRequest>
+		<MB_OffRequest>
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='49' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='31' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#48' id='MBhid48' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Play Media [Stop]</MB_Name>
+		<MB_Subname>Play / Pause Media</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 49 , 41);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 49 , 3 );
+System.KeyPress("MEDIAPAUSE")</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 49 , 41);
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='50' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#49' id='MBhid49' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name></MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest></MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='51' type='1' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='1F' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#50' id='MBhid50' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Mute A2</MB_Name>
+		<MB_Subname>Toggle Mute</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 31 , 5 );
+Bus[1].Mute = 1;</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 31 , 29 );
+Bus[1].Mute = 0;</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='52' type='0' color='7' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='20' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#51' id='MBhid51' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Volume Down A2</MB_Name>
+		<MB_Subname>Smooth A2 Down</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 32 , 53 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 32 , 3 );
+Bus[1].FadeBy = (-72, 5000)</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 32 , 53 );
+Bus[1].Gain+=0</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='53' type='0' color='7' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='21' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#52' id='MBhid52' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Volume Up A2</MB_Name>
+		<MB_Subname>Smooth A2 Up</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 33 , 53 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 33 , 3 );
+Bus[1].FadeBy = (72, 5000)</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 33 , 53 );
+Bus[1].Gain+=0</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='54' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='22' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#53' id='MBhid53' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A2 Preset 1</MB_Name>
+		<MB_Subname>Volume Preset 1</MB_Subname>
+		<MB_InitRequest>
+</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 34 , 3 );
+Bus[1].FadeTo = (-23.2 ,300)
+System.SendMidi("out1", "note-on", 1 , 34 , 3 );
+System.SendMidi("out1", "note-on", 1 , 35 , 79 );
+System.SendMidi("out1", "note-on", 1 , 36 , 79 );
+System.SendMidi("out1", "note-on", 1 , 37 , 79 );
+System.SendMidi("out1", "note-on", 1 , 38 , 79 );</MB_OnRequest>
+		<MB_OffRequest>
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='55' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='23' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#54' id='MBhid54' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A2 Preset 2</MB_Name>
+		<MB_Subname>Volume Preset 2</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 35 , 3 );
+Bus[1].FadeTo = (-14.4 ,300)
+System.SendMidi("out1", "note-on", 1 , 34 , 79 );
+System.SendMidi("out1", "note-on", 1 , 35 , 3 );
+System.SendMidi("out1", "note-on", 1 , 36 , 79 );
+System.SendMidi("out1", "note-on", 1 , 37 , 79 );
+System.SendMidi("out1", "note-on", 1 , 38 , 79 );</MB_OnRequest>
+		<MB_OffRequest>
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='56' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='24' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#55' id='MBhid55' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A2 Preset 3</MB_Name>
+		<MB_Subname>Volume Preset 3</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 36 , 3 );
+Bus[1].FadeTo = (-5.6 ,300)
+System.SendMidi("out1", "note-on", 1 , 34 , 79 );
+System.SendMidi("out1", "note-on", 1 , 35 , 79 );
+System.SendMidi("out1", "note-on", 1 , 36 , 3 );
+System.SendMidi("out1", "note-on", 1 , 37 , 79 );
+System.SendMidi("out1", "note-on", 1 , 38 , 79 );</MB_OnRequest>
+		<MB_OffRequest>
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='57' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='25' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#56' id='MBhid56' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A2 Preset 4</MB_Name>
+		<MB_Subname>Volume Preset 4</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 37 , 3 );
+Bus[1].FadeTo = (3.2 ,300)
+System.SendMidi("out1", "note-on", 1 , 34 , 79 );
+System.SendMidi("out1", "note-on", 1 , 35 , 79 );
+System.SendMidi("out1", "note-on", 1 , 36 , 79 );
+System.SendMidi("out1", "note-on", 1 , 37 , 3 );
+System.SendMidi("out1", "note-on", 1 , 38 , 79 );
+</MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='58' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='26' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#57' id='MBhid57' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A2 Preset 5</MB_Name>
+		<MB_Subname>Volume Preset 5</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 38 , 3 );
+Bus[1].FadeTo = (12 ,300)
+System.SendMidi("out1", "note-on", 1 , 34 , 79 );
+System.SendMidi("out1", "note-on", 1 , 35 , 79 );
+System.SendMidi("out1", "note-on", 1 , 36 , 79 );
+System.SendMidi("out1", "note-on", 1 , 37 , 79 );
+System.SendMidi("out1", "note-on", 1 , 38 , 3 );
+</MB_OnRequest>
+		<MB_OffRequest>
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='59' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='27' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#58' id='MBhid58' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Skip Media [Mute]</MB_Name>
+		<MB_Subname>Skip Media</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 39 , 41);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 39 , 3 );
+System.KeyPress("MEDIANEXT")</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 39 , 41);
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='60' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#59' id='MBhid59' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name></MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest></MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='61' type='1' color='3' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='15' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#60' id='MBhid60' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Mute A1</MB_Name>
+		<MB_Subname>Toggle Mute</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 21 , 5 );
+Bus[0].Mute = 1;</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 21 , 29 );
+Bus[0].Mute = 0;</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='62' type='0' color='7' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='16' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#61' id='MBhid61' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Volume Down A1</MB_Name>
+		<MB_Subname>Smooth A1 Down</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 22 , 53 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 22 , 3 );
+Bus[0].FadeBy = (-72, 5000)</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 22 , 53 );
+Bus[0].Gain+=0</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='63' type='0' color='7' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='17' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#62' id='MBhid62' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Volume Up A1</MB_Name>
+		<MB_Subname>Smooth A1 Up</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 23 , 53 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 23 , 3 );
+Bus[0].FadeBy = (72, 5000)</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 23 , 53 );
+Bus[0].Gain+=0</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='64' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='18' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#63' id='MBhid63' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A1 Preset 1</MB_Name>
+		<MB_Subname>Volume Preset 1</MB_Subname>
+		<MB_InitRequest>
+</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 24 , 3 );
+Bus[0].FadeTo = (-23.2 ,300)
+System.SendMidi("out1", "note-on", 1 , 24 , 3 );
+System.SendMidi("out1", "note-on", 1 , 25 , 79 );
+System.SendMidi("out1", "note-on", 1 , 26 , 79 );
+System.SendMidi("out1", "note-on", 1 , 27 , 79 );
+System.SendMidi("out1", "note-on", 1 , 28 , 79 );
+</MB_OnRequest>
+		<MB_OffRequest>
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='65' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='19' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#64' id='MBhid64' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A1 Preset 2</MB_Name>
+		<MB_Subname>Volume Preset 2</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 25 , 3 );
+Bus[0].FadeTo = (-14.4 ,300)
+System.SendMidi("out1", "note-on", 1 , 24 , 79 );
+System.SendMidi("out1", "note-on", 1 , 25 , 3 );
+System.SendMidi("out1", "note-on", 1 , 26 , 79 );
+System.SendMidi("out1", "note-on", 1 , 27 , 79 );
+System.SendMidi("out1", "note-on", 1 , 28 , 79 );
+</MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='66' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='1A' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#65' id='MBhid65' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A1 Preset 3</MB_Name>
+		<MB_Subname>Volume Preset 3</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 26 , 3 );
+Bus[0].FadeTo = (-5.6 ,300)
+System.SendMidi("out1", "note-on", 1 , 24 , 79 );
+System.SendMidi("out1", "note-on", 1 , 25 , 79 );
+System.SendMidi("out1", "note-on", 1 , 26 , 3 );
+System.SendMidi("out1", "note-on", 1 , 27 , 79 );
+System.SendMidi("out1", "note-on", 1 , 28 , 79 );</MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='67' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='1B' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#66' id='MBhid66' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A1 Preset 4</MB_Name>
+		<MB_Subname>Volume Preset 4</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 27 , 3 );
+Bus[0].FadeTo = (3.2 ,300)
+System.SendMidi("out1", "note-on", 1 , 24 , 79 );
+System.SendMidi("out1", "note-on", 1 , 25 , 79 );
+System.SendMidi("out1", "note-on", 1 , 26 , 79 );
+System.SendMidi("out1", "note-on", 1 , 27 , 3 );
+System.SendMidi("out1", "note-on", 1 , 28 , 79 );</MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='68' type='0' color='0' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='1C' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#67' id='MBhid67' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>A1 Preset 5</MB_Name>
+		<MB_Subname>Volume Preset 5</MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 28 , 3 );
+Bus[0].FadeTo = (12 ,300)
+System.SendMidi("out1", "note-on", 1 , 24 , 79 );
+System.SendMidi("out1", "note-on", 1 , 25 , 79 );
+System.SendMidi("out1", "note-on", 1 , 26 , 79 );
+System.SendMidi("out1", "note-on", 1 , 27 , 79 );
+System.SendMidi("out1", "note-on", 1 , 28 , 3 );
+
+Bus[0].EQ.channel[0].cell[0].on = 0
+Bus[0].EQ.channel[1].cell[0].on = 0
+
+System.SendMidi("out1", "ctrl-change", 1 , 104 , 21);</MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='69' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='1D' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#68' id='MBhid68' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Run [Solo]</MB_Name>
+		<MB_Subname>Powertoys Run</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 29 , 41);</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 29 , 3 );
+System.KeyPress("LWIN+SPACE")</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 29 , 41);
+</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='70' type='0' color='6' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='00' b2='00' b3='00' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#69' id='MBhid69' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>THIS IS User1.XML</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest></MB_InitRequest>
+		<MB_OnRequest>System.Execute("C:\Users\Carsten\Documents\Voicemeeter\min.exe","","");</MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='71' type='0' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='0B' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#70' id='MBhid70' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Taskbar 1</MB_Name>
+		<MB_Subname>Launch Item 1</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 11 , 41 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 11 , 3 );
+System.KeyPress("LWIN+1");</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 11 , 41 );</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='72' type='0' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='0C' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#71' id='MBhid71' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Taskbar 2</MB_Name>
+		<MB_Subname>Launch Item 2</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 12 , 41 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 12 , 3 );
+System.KeyPress("LWIN+2");</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 12 , 41 );</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='73' type='0' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='0D' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#72' id='MBhid72' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Taskbar 3</MB_Name>
+		<MB_Subname>Launch Item 3</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 13 , 41 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 13 , 3 );
+System.KeyPress("LWIN+3");</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 13 , 41 );</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='74' type='0' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='0E' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#73' id='MBhid73' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Taskbar 4</MB_Name>
+		<MB_Subname>Launch Item 4</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 14 , 41 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 14 , 3 );
+System.KeyPress("LWIN+4");</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 14 , 41 );</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='75' type='0' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='0F' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#74' id='MBhid74' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Taskbar 5</MB_Name>
+		<MB_Subname>Launch Item 5</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 15 , 41 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 15 , 3 );
+System.KeyPress("LWIN+5");</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 15 , 41 );</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='76' type='0' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='10' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#75' id='MBhid75' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Taskbar 6</MB_Name>
+		<MB_Subname>Launch Item 6</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 16 , 41 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 16 , 3 );
+System.KeyPress("LWIN+6");</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 16 , 41 );</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='77' type='0' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='11' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#76' id='MBhid76' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Taskbar 7</MB_Name>
+		<MB_Subname>Launch Item 7</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 17 , 41 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 17 , 3 );
+recorder.record= 1</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 17 , 41 );
+recorder.stop =1</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='78' type='0' color='5' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='12' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#77' id='MBhid77' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Taskbar 8</MB_Name>
+		<MB_Subname>Launch Item 8</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 18 , 41 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 18 , 3 );
+recorder.replay= 1</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 18 , 41 );</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='79' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='90' b2='13' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#78' id='MBhid78' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Desktop [Record Arm]</MB_Name>
+		<MB_Subname>Desktop</MB_Subname>
+		<MB_InitRequest>System.SendMidi("out1", "note-on", 1 , 19 , 41 );</MB_InitRequest>
+		<MB_OnRequest>System.SendMidi("out1", "note-on", 1 , 19 , 3 );
+System.KeyPress("LWIN+D");</MB_OnRequest>
+		<MB_OffRequest>System.SendMidi("out1", "note-on", 1 , 19 , 41 );</MB_OffRequest>
+	</MacroButton>
+	<MacroButton index='80' type='0' color='4' key='0' ctrl='0' shift='0' alt='0' anyway='0' exclusive='0' trigger='0' xinput='0' >
+		<MB_MIDI b1='B0' b2='6F' b3='7F' b4='00' b5='00' b6='00' />
+		<MB_TRIGGER tchannel='0' tin='-20.0' tout='-20.0' tmsHold='1000' tafterMute='0' />
+		<MB_XINPUT nctrl='0' nbutton='0' />
+		<VBHIDMapItem name='Button#79' id='MBhid79' device='' vendor='0' product='0' version='0' uspa='0' us='0' nbb='0' code1='0' code2='0' code3='0' type='0' mode='0'></VBHIDMapItem>
+		<MB_Name>Load User 2</MB_Name>
+		<MB_Subname></MB_Subname>
+		<MB_InitRequest>//System.KeyPress("ALT+F4")</MB_InitRequest>
+		<MB_OnRequest>Load("C:\Users\Carsten\Documents\Voicemeeter\User2.xml")
+System.Execute("C:\Users\Carsten\Documents\Voicemeeter\min.exe","","");</MB_OnRequest>
+		<MB_OffRequest></MB_OffRequest>
+	</MacroButton>
+</MacroButtonConfiguration>
+</VBAudioVoicemeeterMacroButtonMap>
