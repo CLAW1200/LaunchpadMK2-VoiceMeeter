@@ -24,7 +24,7 @@ Download the files and place them in:
 
 - From the same menu, select ***"MIDI Mapping"***.
 
-	You only need to set ***"MIDI Input Device"*** to the Launchpad (not feedback or extra), as we will not set any controls from this page. %explain this%
+	You only need to set ***"MIDI Input Device"*** to the Launchpad (not feedback or extra), as we will not set any controls from this page.
 
 - Next, from the menu, check:
 
