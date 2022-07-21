@@ -62,3 +62,7 @@ As stated in the beginning, please read the wiki for any information regarding e
 ***What is "min.exe" and "min.py"?*** 
 
 - Min.exe is a compiled python script that simply minimizes MacroButtons.exe. It is run when pressing the User Switch (Mixer) button. It exists because of annoying side effect when loading a Macro config file, with Macros. You don't need it, but if you switch pages a lot you way find it useful. You can read the wiki for more information.
+
+***Why are lots sliders either -12dB or +12dB?***
+
+- In Macros, there is no way to limit the gain of a slider. For example, when holding a Vol+ button, I can't just make an IF statement to stop it going over 0dB. So in yet another compromise, most sliders are set at -12dB so the full range of sliders can be used without the audio clipping. The end result is the same however, and no volume is lost. But yes, it looks stupid.
