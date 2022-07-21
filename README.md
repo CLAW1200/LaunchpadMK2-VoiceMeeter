@@ -1,6 +1,6 @@
 # LaunchpadMK2-VoiceMeeter
 VoiceMeeter Potato Configs for use with a Launchpad MK2 
-
+Mk2-Macro-Layout.png
 Download the files and place them in:
 
 	C:\Users\%username%\Documents\Voicemeeter
