@@ -1,5 +1,8 @@
 # Setup Guide
 
+Read the Wiki for more details and other important info
+=
+
 ![](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/blob/main/Mk2-Macro-Layout.png?raw=true)
 
 VoiceMeeter Potato Configs for use with a Launchpad MK2 
