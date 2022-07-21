@@ -1,8 +1,5 @@
 # Setup Guide
 
-Read the Wiki for more details and other important info
-=
-
 ![](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/blob/main/Mk2-Macro-Layout.png?raw=true)
 
 VoiceMeeter Potato Configs for use with a Launchpad MK2 
@@ -56,3 +53,12 @@ Either way, ***Shutdown BOTH Voicemeeter and MacroButtons***, don't just close t
 
 - **Open Voicemeeter**. 
 Both Voicemeeter and MacroButtons should start minimized in the system tray and the **Launchpad should be lit up**
+
+**Further Notes**
+=
+
+As stated in the beginning, please read the wiki for any information regarding editing buttons or configs
+
+***What is "min.exe" and "min.py"?*** 
+
+- Min.exe is a compiled python script that simply minimizes MacroButtons.exe. It is run when pressing the User Switch (Mixer) button. It exists because of annoying side effect when loading a Macro config file, with Macros. You don't need it, but if you switch pages a lot you way find it useful. You can read the wiki for more information.
