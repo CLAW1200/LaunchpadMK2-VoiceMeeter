@@ -1,5 +1,8 @@
 # Setup Guide
 
+Read the Wiki [Here](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/wiki)
+=
+
 ![](https://github.com/CLAW1200/LaunchpadMK2-VoiceMeeter/blob/main/Mk2-Macro-Layout.png?raw=true)
 
 A Macro Board for the Novation Launchpad MK2
